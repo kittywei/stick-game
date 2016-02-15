@@ -1,0 +1,23 @@
+.canvas-wrap,#canvas1{width: 480px;height: 720px;margin: 0 auto;overflow: hidden}
+#canvas1{transform-origin: 0 0 0;-webkit-transform-origin: 0 0 0;-moz-transform-origin: 0 0 0;}
+#canvas1{background-color: #000;position: relative}
+#btn-press{display: block;padding: 20px 40px;position: absolute;color: #000;background-color: #fff;border-radius: 5px;right: 5%;top: 5%;cursor: pointer;font-size: 18px;z-index: 5}
+
+#character{width: 20px;height: 20px;position: absolute;left: 20px;bottom: 200px;background-color: #ff0000;z-index: 5}
+
+.stick{width: 3px;height: 0px;background-color: #fff;position: absolute;left: 40px;bottom: 200px;transform-origin: 100% 100% 0;-ms-transform-origin: 100% 100% 0;-moz-transform-origin: 100% 100% 0;-webkit-transform-origin: 100% 100% 0;-o-transform-origin: 100% 100% 0;}
+.stick.lie{transform:rotate(90deg);-ms-transform:rotate(90deg);-moz-transform:rotate(90deg);-webkit-transform:rotate(90deg);-o-transform:rotate(90deg);}
+.stick.down{transform:rotate(180deg);-ms-transform:rotate(180deg);-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);-o-transform:rotate(180deg);}
+.transition{transition: all 0.1s;-moz-transition: all 0.1s;-webkit-transition: all 0.1s;}
+
+
+.block-item{background-color: #fff;height: 200px; width: 50px;position: absolute;left: 0;bottom: 0;}
+
+#count{font-size: 20px;padding: 50px 0 0 50px;display: block;position: absolute;left: 0;top: 0;color: #fff}
+
+#game{height: 100%;position: relative}
+
+
+
+
+
